@@ -1,0 +1,27 @@
+# Extension distribution repo .gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Development files (not needed in distribution)
+*.js.map
+*.css.map
+package.json
+package-lock.json
+node_modules/
+
+# Source files (only bundles needed)
+background.js
+contentScript.js
+panel.js
+*.source.js
+
+# Temporary
+*.tmp
+*.log
+.cache/
+
+# Build artifacts (if any)
+dist/
+build/
